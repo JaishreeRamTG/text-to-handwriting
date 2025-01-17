@@ -122,10 +122,34 @@
       </button>
       <h1>Text to Handwriting</h1>
       <section class="generate-image-section">
-        <!-- Content continues... -->
-      </section>
+        <form id="generate-image-form">
+          <div class="display-flex output-grid responsive-flex">
+            <div class="flex-1 page-container-super">
+              <div>
+                <h2 style="margin-top: 0px;">Input</h2>
+                <label class="block" for="note">Type/Paste text here</label>
+              </div>
 
-      <!-- Removed sections: Sponsors and GitHub Contributors -->
+              <div class="flex-1 page-container">
+                <div class="page-a margined lines">
+                  <div contenteditable="true" class="top-margin"></div>
+                  <div class="display-flex left-margin-and-content">
+                    <div contenteditable="true" class="left-margin"></div>
+                    <div
+                      class="paper-content"
+                      id="note"
+                      contenteditable="true"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
 
       <section id="faq">
         <h2>❓ FAQs (Frequently Asked Questions)</h2>
@@ -144,11 +168,16 @@
             You can use fonts from
             <a
               href="https://www.quantumenterprises.co.uk/handwriting-fonts/fontvault.htm"
-              >https://www.quantumenterprises.co.uk/handwriting-fonts/fontvault.htm</a
+              >Font Vault</a
             >
           </p>
         </div>
       </section>
     </main>
+
+    <footer>
+      Thank you for using Text to Handwriting! Follow me on
+      <a href="https://twitter.com/saurabhcodes">Twitter</a> ~ Saurabh
+    </footer>
   </body>
 </html>
